@@ -62,91 +62,73 @@
 
 ## ‏🖥️ معرض لوحات المعلومات | Dashboard Showcase
 
-<p dir="rtl" align="right">الصور المرقمة 1–15 موجودة في مجلد <code>salses</code> وفق الرابط الظاهر في الصورة، والصورة رقم 16 تبدو في جذر المستودع. يعرضها هذا القسم مباشرة دون إعادة تسميتها أو رفعها. لم أربط أرقام الصور بأسماء صفحات محددة لأن مطابقة كل رقم بصفحته لم تُؤكَّد بعد.</p>
+<p dir="rtl">الصور التالية من التقرير الذي نفذته، مرتبة حسب محتواها الفعلي. لا تتضمن صفحات غير مكتملة.</p>
 
-<details open>
-<summary>📷 صور تقرير Power BI | Dashboard Screenshots (1–16)</summary>
+### 1. Sales Overview — نظرة عامة على المبيعات
 
-**الصورة 1 | Screenshot 01**
+![Sales Overview — نظرة عامة على المبيعات](salses/1.png)
 
-![Power BI Screenshot 1](salses/1.png)
+### 2. Sales Overview — لوحة الفلاتر
 
-**الصورة 2 | Screenshot 02**
+![Sales Overview — لوحة الفلاتر](salses/2.png)
 
-![Power BI Screenshot 2](salses/2.png)
+### 3. Store Performance — أداء الفروع
 
-**الصورة 3 | Screenshot 03**
+![Store Performance — أداء الفروع](salses/3.png)
 
-![Power BI Screenshot 3](salses/3.png)
+### 4. Store Performance — الانتقال لتفاصيل الفرع (Drillthrough)
 
-**الصورة 4 | Screenshot 04**
+![Store Performance — الانتقال لتفاصيل الفرع (Drillthrough)](salses/4.png)
 
-![Power BI Screenshot 4](salses/4.png)
+### 5. Store Details — تفاصيل فرع Al Nakheel
 
-**الصورة 5 | Screenshot 05**
+![Store Details — تفاصيل فرع Al Nakheel](salses/5.png)
 
-![Power BI Screenshot 5](salses/5.png)
+### 6. Store Details — الانتقال لتفاصيل المنتج (Drillthrough)
 
-**الصورة 6 | Screenshot 06**
+![Store Details — الانتقال لتفاصيل المنتج (Drillthrough)](salses/6.png)
 
-![Power BI Screenshot 6](salses/6.png)
+### 7. Product Details — تفاصيل منتج Detergent
 
-**الصورة 7 | Screenshot 07**
+![Product Details — تفاصيل منتج Detergent](salses/7.png)
 
-![Power BI Screenshot 7](salses/7.png)
+### 8. Inventory Analysis — تحليل المخزون
 
-**الصورة 8 | Screenshot 08**
+![Inventory Analysis — تحليل المخزون](salses/8.png)
 
-![Power BI Screenshot 8](salses/8.png)
+### 9. Promotion Analysis — تحليل العروض الترويجية
 
-**الصورة 9 | Screenshot 09**
+![Promotion Analysis — تحليل العروض الترويجية](salses/9.png)
 
-![Power BI Screenshot 9](salses/9.png)
+### 10. Marketing Analysis — تحليل التسويق
 
-**الصورة 10 | Screenshot 10**
+![Marketing Analysis — تحليل التسويق](salses/10.png)
 
-![Power BI Screenshot 10](salses/10.png)
+### 11. Profitability Analysis — تحليل الربحية
 
-**الصورة 11 | Screenshot 11**
+![Profitability Analysis — تحليل الربحية](salses/11.png)
 
-![Power BI Screenshot 11](salses/11.png)
+### 12. Customer Analysis — تحليل العملاء
 
-**الصورة 12 | Screenshot 12**
+![Customer Analysis — تحليل العملاء](salses/12.png)
 
-![Power BI Screenshot 12](salses/12.png)
+### 13. Returns Analysis — تحليل المرتجعات
 
-**الصورة 13 | Screenshot 13**
+![Returns Analysis — تحليل المرتجعات](salses/13.png)
 
-![Power BI Screenshot 13](salses/13.png)
+### 14. Purchasing & Suppliers — المشتريات والموردون
 
-**الصورة 14 | Screenshot 14**
+![Purchasing & Suppliers — المشتريات والموردون](salses/14.png)
 
-![Power BI Screenshot 14](salses/14.png)
+### 15. Store Operations — عمليات المتاجر
 
-**الصورة 15 | Screenshot 15**
+![Store Operations — عمليات المتاجر](salses/15.png)
 
-![Power BI Screenshot 15](salses/15.png)
+### 16. Data Model — العلاقات بين الجداول
 
-**الصورة 16 | Screenshot 16**
+![Data Model — العلاقات بين الجداول](16.png)
 
-![Power BI Screenshot 16](16.png)
-
-</details>
-
-### ‏الصفحات المشمولة في التقرير
-
-| ‏القسم | ‏ما الذي يحلله؟ |
-|---|---|
-| Sales Overview | ‏اتجاه المبيعات وأفضل المنتجات |
-| Store Performance | ‏الفروقات بين الفروع |
-| Profitability Analysis | ‏الأرباح وهوامش الربح والتكاليف |
-| Inventory Analysis | ‏حالة المخزون والتغطية |
-| Customer Analysis | ‏الشرائح وسلوك الفواتير |
-| Returns Analysis | ‏المرتجعات ومبالغ الاسترداد |
-| Purchasing & Suppliers | ‏الطلبيات والموردون والاستلام |
-| Store Operations | ‏الزيارات والتغطية والحوادث |
-
-<p dir="rtl" align="right">ملاحظة: رابط صور 1–15 يعتمد على مجلد `salses` كما ظهر في رابط GitHub، والصورة `16.png` ظهرت في جذر المستودع في اللقطة السابقة. إن تغيّر موقع صورة، ينبغي تعديل الرابط حسب مسارها الفعلي. إذا تبي ترتيب الصور حسب الصفحات لاحقًا، نطابق الرقم مع اسم الصفحة أولًا ثم نعدّل العناوين دون تغيير أسماء الملفات.</p>
+> **مسارات الصور:** الصور 1–15 من `salses/` والصورة 16 من جذر المستودع `16.png` وفق لقطات GitHub التي أرسلتِها. تحققي من الموضع قبل نشر التعديل.
 
 ## ‏💡 أبرز الرؤى | Key Insights
 
@@ -180,9 +162,9 @@
 | **Drillthrough / Bookmarks / Slicers** |‏ تحسين استكشاف البيانات والتنقل داخل التقرير |
 | **Business Analysis** |‏ صياغة أسئلة أعمال وتفسير النتائج وتوصيات قابلة للدراسة |
 
-## ‏🧮 جميع المقاييس: DAX + الحساب الرياضي + Practice
+## ‏🧮 المقاييس الموثقة من التقرير | DAX + Math + Practice
 
-‏> يحتوي القسم التالي على الصيغ التي ناقشناها وأمثلة تعليمية؛ عند وجود عبارة «صيغة مرجعية مقترحة»، فهي ليست مقياسًا مثبتًا داخل ملف PBIX، ويلزم التحقق قبل نسبتها للتنفيذ.
+‏> أسماء المقاييس مأخوذة مما عرضته لقطات التقرير ومحادثات بناء المشروع. بعض نصوص DAX المعروضة صيغ شرح لا يمكن التأكد من تطابقها حرفيًا مع نسخة PBIX من الصور وحدها. لم ندرج مقاييس الشكاوى أو أهداف المبيعات غير المنفذة.
 
 ## ‏طريقة قراءة المعادلات
 
@@ -227,100 +209,27 @@ DISTINCTCOUNT(FactSales[InvoiceID])
 
 ‏**اختبار صحة النتيجة:** ضعي المقياس مع البعد المناسب في Table visual، قارني الإجمالي بمثال يدوي، ثم اختبري اختيار فرع/فترة زمنية.
 
-### عدد الفواتير المكتملة | Completed Invoice Count
-‏**المعنى:** عدد الفواتير المكتملة.
-‏**الطريقة الرياضية:** عدد الفواتير الفريدة حيث Status = Completed.
-‏**حالة التوثيق:** صيغة مرجعية مقترحة.
-
-**DAX**
-```dax
-Completed Invoice Count =
-CALCULATE(
-    DISTINCTCOUNT(FactSales[InvoiceID]),
-    FactSales[InvoiceStatus] = "Completed"
-)
-```
-
-‏**Practice — تمرين تطبيقي:** قارن Invoice Count مع Completed Invoice Count عند وجود حالات غير مكتملة.
-
-‏**اختبار صحة النتيجة:** ضعي المقياس مع البعد المناسب في Table visual، قارني الإجمالي بمثال يدوي، ثم اختبري اختيار فرع/فترة زمنية.
 
 ### متوسط قيمة الفاتورة | Average Order Value
 ‏**المعنى:** متوسط قيمة الفاتورة.
-‏**الطريقة الرياضية:** صافي مبيعات مكتملة ÷ عدد الفواتير المكتملة.
-‏**حالة التوثيق:** صيغة منقّحة؛ في الدروس استخدمنا Invoice Count.
+‏**الطريقة الرياضية:** [Total Sales] ÷ [Invoice Count] وفق المقياس المنفذ في التقرير.
+‏**حالة التوثيق:** مستخدم في صفحة العملاء، ويجب تفسير نطاق الفواتير عند المقارنة.
 
 **DAX**
 ```dax
 Average Order Value =
-DIVIDE([Total Sales], [Completed Invoice Count], 0)
+DIVIDE([Total Sales], [Invoice Count], 0)
 ```
 
 ‏**Practice — تمرين تطبيقي:** إذا كانت المبيعات 500 وعدد الفواتير المكتملة 10 فالمتوسط 50.
 
 ‏**اختبار صحة النتيجة:** ضعي المقياس مع البعد المناسب في Table visual، قارني الإجمالي بمثال يدوي، ثم اختبري اختيار فرع/فترة زمنية.
 
-### الكمية المباعة | Units Sold
-‏**المعنى:** عدد الوحدات المباعة.
-‏**الطريقة الرياضية:** مجموع Quantity من سطور الفواتير؛ يحتاج سياسة للملغاة.
-‏**حالة التوثيق:** صيغة مرجعية مقترحة.
-
-**DAX**
-```dax
-Units Sold =
-SUM(FactSaleLines[Quantity])
-```
-
-‏**Practice — تمرين تطبيقي:** اختبر عدم احتساب الوحدات الملغاة إن وجدت.
-
-‏**اختبار صحة النتيجة:** ضعي المقياس مع البعد المناسب في Table visual، قارني الإجمالي بمثال يدوي، ثم اختبري اختيار فرع/فترة زمنية.
 
 ## الربحية | Profitability
 
-### إجمالي تكلفة البضاعة المباعة | Total COGS
-‏**المعنى:** تكلفة البضاعة المباعة.
-‏**الطريقة الرياضية:** مجموع CostOfGoodsSoldSAR.
-‏**حالة التوثيق:** صيغة مرجعية مقترحة.
 
-**DAX**
-```dax
-Total COGS =
-SUM(FactSaleLines[CostOfGoodsSoldSAR])
-```
 
-‏**Practice — تمرين تطبيقي:** إذا كانت 3 قطع بتكلفة 5 فالنتيجة 15.
-
-‏**اختبار صحة النتيجة:** ضعي المقياس مع البعد المناسب في Table visual، قارني الإجمالي بمثال يدوي، ثم اختبري اختيار فرع/فترة زمنية.
-
-### الربح الإجمالي | Gross Profit
-‏**المعنى:** الربح الإجمالي.
-‏**الطريقة الرياضية:** صافي المبيعات − تكلفة البضاعة.
-‏**حالة التوثيق:** صيغة مرجعية تحتاج التحقق من نطاق الفلاتر.
-
-**DAX**
-```dax
-Gross Profit =
-[Total Sales] - [Total COGS]
-```
-
-‏**Practice — تمرين تطبيقي:** مثال 1000 مبيعات و650 تكلفة = 350 ربح إجمالي.
-
-‏**اختبار صحة النتيجة:** ضعي المقياس مع البعد المناسب في Table visual، قارني الإجمالي بمثال يدوي، ثم اختبري اختيار فرع/فترة زمنية.
-
-### هامش الربح الإجمالي | Gross Margin %
-‏**المعنى:** هامش الربح الإجمالي.
-‏**الطريقة الرياضية:** الربح الإجمالي ÷ صافي المبيعات × 100%.
-‏**حالة التوثيق:** صيغة مرجعية مقترحة.
-
-**DAX**
-```dax
-Gross Margin % =
-DIVIDE([Gross Profit], [Total Sales], 0)
-```
-
-‏**Practice — تمرين تطبيقي:** 350 ÷ 1000 = 35%؛ نسّقي Percentage.
-
-‏**اختبار صحة النتيجة:** ضعي المقياس مع البعد المناسب في Table visual، قارني الإجمالي بمثال يدوي، ثم اختبري اختيار فرع/فترة زمنية.
 
 ## العملاء | Customers
 
@@ -529,23 +438,6 @@ DIVIDE([Received Units], [Purchased Units], 0)
 
 ‏**اختبار صحة النتيجة:** ضعي المقياس مع البعد المناسب في Table visual، قارني الإجمالي بمثال يدوي، ثم اختبري اختيار فرع/فترة زمنية.
 
-### قيمة أوامر الشراء | Purchase Order Value
-‏**المعنى:** قيمة أوامر الشراء.
-‏**الطريقة الرياضية:** مجموع (الكمية المطلوبة × تكلفة الوحدة).
-‏**حالة التوثيق:** صيغة مرجعية مقترحة.
-
-**DAX**
-```dax
-Purchase Order Value =
-SUMX(
-    FactPurchaseOrders,
-    FactPurchaseOrders[OrderedUnits] * FactPurchaseOrders[PurchaseUnitCostSAR]
-)
-```
-
-‏**Practice — تمرين تطبيقي:** 10 × 20 + 5 × 30 = 350.
-
-‏**اختبار صحة النتيجة:** ضعي المقياس مع البعد المناسب في Table visual، قارني الإجمالي بمثال يدوي، ثم اختبري اختيار فرع/فترة زمنية.
 
 ### نسبة التسليم في الموعد | On-Time Delivery Rate
 ‏**المعنى:** نسبة التسليم في الوقت.
@@ -646,144 +538,8 @@ CALCULATE(
 
 ## التسويق | Marketing
 
-### الإنفاق التسويقي | Marketing Spend
-‏**المعنى:** إنفاق التسويق.
-‏**الطريقة الرياضية:** مجموع الإنفاق.
-‏**حالة التوثيق:** صيغة مرجعية مقترحة.
 
-**DAX**
-```dax
-Marketing Spend =
-SUM(FactMarketingMonthly[CampaignSpendSAR])
-```
 
-‏**Practice — تمرين تطبيقي:** جمع نفقات الحملات لشهر واحد ثم قارني الإجمالي.
-
-‏**اختبار صحة النتيجة:** ضعي المقياس مع البعد المناسب في Table visual، قارني الإجمالي بمثال يدوي، ثم اختبري اختيار فرع/فترة زمنية.
-
-### معدل النقر إلى الظهور | CTR %
-‏**المعنى:** نسبة النقر إلى الظهور.
-‏**الطريقة الرياضية:** النقرات ÷ مرات الظهور.
-‏**حالة التوثيق:** صيغة مرجعية مقترحة.
-
-**DAX**
-```dax
-CTR % =
-DIVIDE(SUM(FactMarketingMonthly[Clicks]), SUM(FactMarketingMonthly[Impressions]), 0)
-```
-
-‏**Practice — تمرين تطبيقي:** 500 نقرة / 10000 ظهور = 5%.
-
-‏**اختبار صحة النتيجة:** ضعي المقياس مع البعد المناسب في Table visual، قارني الإجمالي بمثال يدوي، ثم اختبري اختيار فرع/فترة زمنية.
-
-### تكلفة النقرة | CPC
-‏**المعنى:** التكلفة لكل نقرة.
-‏**الطريقة الرياضية:** الإنفاق ÷ النقرات.
-‏**حالة التوثيق:** صيغة مرجعية مقترحة.
-
-**DAX**
-```dax
-CPC =
-DIVIDE(SUM(FactMarketingMonthly[CampaignSpendSAR]), SUM(FactMarketingMonthly[Clicks]), 0)
-```
-
-‏**Practice — تمرين تطبيقي:** 100 ريال / 20 نقرة = 5 ريال.
-
-‏**اختبار صحة النتيجة:** ضعي المقياس مع البعد المناسب في Table visual، قارني الإجمالي بمثال يدوي، ثم اختبري اختيار فرع/فترة زمنية.
-
-## أهداف المبيعات | Targets
-
-### هدف المبيعات | Sales Target
-‏**المعنى:** هدف المبيعات.
-‏**الطريقة الرياضية:** مجموع الأهداف بعد مواءمة سياق الفترة والفئة.
-‏**حالة التوثيق:** صيغة مرجعية؛ راجعي العلاقات عند الفئات/الشهور.
-
-**DAX**
-```dax
-Sales Target =
-SUM(FactMonthlyTargets[NetSalesTargetSAR])
-```
-
-‏**Practice — تمرين تطبيقي:** إجمالي CSV السنوي = 3102720.
-
-‏**اختبار صحة النتيجة:** ضعي المقياس مع البعد المناسب في Table visual، قارني الإجمالي بمثال يدوي، ثم اختبري اختيار فرع/فترة زمنية.
-
-### نسبة تحقيق الهدف | Target Achievement %
-‏**المعنى:** تحقيق هدف المبيعات.
-‏**الطريقة الرياضية:** المبيعات الفعلية ÷ الهدف.
-‏**حالة التوثيق:** صيغة مرجعية؛ لا تقارني فترات مختلفة.
-
-**DAX**
-```dax
-Target Achievement % =
-DIVIDE([Total Sales], [Sales Target], 0)
-```
-
-‏**Practice — تمرين تطبيقي:** 500 / 400 = 125%.
-
-‏**اختبار صحة النتيجة:** ضعي المقياس مع البعد المناسب في Table visual، قارني الإجمالي بمثال يدوي، ثم اختبري اختيار فرع/فترة زمنية.
-
-### الفرق بين المبيعات والهدف | Sales Target Variance
-‏**المعنى:** فرق الهدف.
-‏**الطريقة الرياضية:** المبيعات الفعلية − الهدف.
-‏**حالة التوثيق:** صيغة مرجعية.
-
-**DAX**
-```dax
-Sales Target Variance =
-[Total Sales] - [Sales Target]
-```
-
-‏**Practice — تمرين تطبيقي:** 500 − 400 = +100.
-
-‏**اختبار صحة النتيجة:** ضعي المقياس مع البعد المناسب في Table visual، قارني الإجمالي بمثال يدوي، ثم اختبري اختيار فرع/فترة زمنية.
-
-## شكاوى العملاء | Complaints
-
-### إجمالي الشكاوى | Total Complaints
-‏**المعنى:** عدد الشكاوى.
-‏**الطريقة الرياضية:** عدد TicketID المختلفة.
-‏**حالة التوثيق:** صيغة مرجعية مقترحة.
-
-**DAX**
-```dax
-Total Complaints =
-DISTINCTCOUNT(FactCustomerComplaints[TicketID])
-```
-
-‏**Practice — تمرين تطبيقي:** تحقق مرجعي 1761.
-
-‏**اختبار صحة النتيجة:** ضعي المقياس مع البعد المناسب في Table visual، قارني الإجمالي بمثال يدوي، ثم اختبري اختيار فرع/فترة زمنية.
-
-### متوسط أيام معالجة الشكاوى | Average Resolution Days
-‏**المعنى:** متوسط أيام الحل.
-‏**الطريقة الرياضية:** متوسط ResolutionDays.
-‏**حالة التوثيق:** صيغة مرجعية مقترحة.
-
-**DAX**
-```dax
-Average Resolution Days =
-AVERAGE(FactCustomerComplaints[ResolutionDays])
-```
-
-‏**Practice — تمرين تطبيقي:** 2, 4, 6 أيام => متوسط 4.
-
-‏**اختبار صحة النتيجة:** ضعي المقياس مع البعد المناسب في Table visual، قارني الإجمالي بمثال يدوي، ثم اختبري اختيار فرع/فترة زمنية.
-
-### الشكاوى عالية الخطورة | High Severity Complaints
-‏**المعنى:** عدد الشكاوى عالية الخطورة.
-‏**الطريقة الرياضية:** عدد التذاكر حيث Severity = High.
-‏**حالة التوثيق:** صيغة مرجعية مقترحة.
-
-**DAX**
-```dax
-High Severity Complaints =
-CALCULATE(DISTINCTCOUNT(FactCustomerComplaints[TicketID]), FactCustomerComplaints[Severity] = "High")
-```
-
-‏**Practice — تمرين تطبيقي:** تحقق مرجعي 563.
-
-‏**اختبار صحة النتيجة:** ضعي المقياس مع البعد المناسب في Table visual، قارني الإجمالي بمثال يدوي، ثم اختبري اختيار فرع/فترة زمنية.
 
 ## ‏👩‍💻 عن صاحبة المشروع | About Me
 
