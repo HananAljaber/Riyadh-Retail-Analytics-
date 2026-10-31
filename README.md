@@ -1,4 +1,4 @@
-<div align="center">
+
 
 # Riyadh Retail Analytics
 ### تحليل أعمال متكامل لقطاع التجزئة باستخدام Power BI
@@ -7,7 +7,7 @@
 
 **Power BI • DAX • Power Query • Data Modeling • Business Intelligence • Data Storytelling**
 
-</div>
+
 
 ---
 
@@ -62,39 +62,57 @@
 
 ## 🖥️ معرض لوحات المعلومات | Dashboard Showcase
 
-> **مكان الصور:** أضيفي هنا لقطات Power BI الأصلية المرفوعة إلى GitHub، مع الاحتفاظ بمسار الصورة الصحيح. مثال: `![Sales Overview](sales/1.png)` إذا كانت صورة Sales Overview فعلًا هي `1.png` داخل مجلد `sales`. لا نربط الأرقام بالصور قبل مطابقة كل صورة بعنوانها.
+الصور التالية **لقطات أصلية من عملي على Power BI** أثناء إعداد التقرير. قد تختلف بعض تفاصيل التنسيق عن النسخة المحفوظة النهائية؛ لذلك تُراجع الأرقام والتنسيقات قبل نشر النسخة المعتمدة.
 
-### Sales Overview & Store Performance
+### 1. Sales Overview — أداء المبيعات
 
-مقارنة مبيعات الفروع والمنتجات، والاتجاهات الشهرية، وأداء الكميات، والانتقال إلى تفاصيل الفرع والمنتج باستخدام **Drillthrough**.
+ما حجم المبيعات؟ وما المنتجات الأعلى مبيعًا؟ وكيف يتغير الأداء خلال السنة؟
 
-<!-- أضيفي صورة Sales Overview هنا بعد تأكيد اسم الملف -->
+![Sales Overview Dashboard](images/sales-overview.png)
 
-### Profitability & Inventory
+### 2. Store Performance — مقارنة الفروع
 
-تحليل **Gross Profit** و**Gross Margin** ومقارنة تكلفة الوحدة بسعر البيع، إلى جانب مراقبة مستويات المخزون و**Days of Inventory**.
+مقارنة الفروع وتحليل تفاوت المبيعات والكميات، مع إمكانية الانتقال إلى تفاصيل كل فرع.
 
-<!-- أضيفي صور Profitability وInventory هنا -->
+![Store Performance Dashboard](images/store-performance.png)
 
-### Customer Analysis & Returns
+### 3. Profitability Analysis — تحليل الربحية
 
-تحليل شرائح **Member / NonMember / VIP**، وعدد الفواتير ومتوسط قيمتها، مع تتبع المرتجعات والكميات والمبالغ المستردة وأسباب الإرجاع.
+تقييم هوامش الربح والتكلفة وسعر البيع، بدل اتخاذ القرار اعتمادًا على الإيرادات وحدها.
 
-<!-- أضيفي صور Customer وReturns هنا -->
+![Profitability Dashboard](images/profitability.png)
 
-### Purchasing & Suppliers
+### 4. Inventory Analysis — تحليل المخزون
 
-مقارنة الكميات المطلوبة والمستلمة، وتحليل **Unreceived Units** و**Fulfillment Rate** و**On-Time Delivery Rate** بحسب المورد.
+مراقبة المخزون والتغطية بالأيام لتحديد الأصناف التي تحتاج متابعة.
 
-<!-- أضيفي صورة Purchasing & Suppliers هنا -->
+![Inventory Analysis Dashboard](images/inventory.png)
 
-### Marketing & Store Operations
+### 5. Customer Analysis — تحليل العملاء
 
-متابعة **CTR / CPC** ومؤشرات زيارات المتاجر وتغطية الموظفين والحوادث التشغيلية.
+مقارنة فئات العملاء بناءً على إجمالي المبيعات وعدد الفواتير ومتوسط قيمة الفاتورة.
 
-<!-- أضيفي صور Marketing وStore Operations هنا -->
+![Customer Analysis Dashboard](images/customers.png)
 
-**صفحات تفاعلية إضافية:** تفاصيل الفروع والمنتجات، وتحليل العروض الترويجية. الصفحات غير المكتملة لا تُعرض هنا بوصفها نتائج نهائية.
+### 6. Returns Analysis — تحليل المرتجعات
+
+تتبّع أسباب الإرجاع والكميات المرتجعة ومبالغ الاسترداد.
+
+![Returns Dashboard](images/returns.png)
+
+### 7. Purchasing & Suppliers — المشتريات والموردون
+
+مقارنة المطلوب بالمستلم ومتابعة نسبة الاستلام والالتزام بمواعيد التسليم.
+
+![Purchasing Dashboard](images/purchasing-suppliers.png)
+
+### 8. Store Operations — عمليات المتاجر
+
+تحليل الزيارات وتغطية الموظفين والحوادث التشغيلية على مستوى الفرع والفترة.
+
+![Store Operations Dashboard](images/store-operations.png)
+
+> صفحات التسويق والعروض الترويجية وتفاصيل الفرع والمنتج موجودة ضمن نطاق المشروع، ويمكن إضافة لقطاتها الأصلية عند اعتمادها. الصفحات غير المكتملة لا تُعرض بوصفها منجزة.
 
 ## 💡 أبرز الرؤى | Key Insights
 
@@ -128,16 +146,620 @@
 | **Drillthrough / Bookmarks / Slicers** | تحسين استكشاف البيانات والتنقل داخل التقرير |
 | **Business Analysis** | صياغة أسئلة أعمال وتفسير النتائج وتوصيات قابلة للدراسة |
 
-## 📚 التوثيق التفصيلي | Technical Documentation
+## 🧮 جميع المقاييس: DAX + الحساب الرياضي + Practice
 
-أُعدّ التوثيق التقني كجزء مستقل، حتى يبقى هذا الملف مناسبًا لمسؤول التوظيف، ويستطيع المتخصص التقني التعمق عند الحاجة:
+> يحتوي القسم التالي على الصيغ التي ناقشناها وأمثلة تعليمية؛ عند وجود عبارة «صيغة مرجعية مقترحة»، فهي ليست مقياسًا مثبتًا داخل ملف PBIX، ويلزم التحقق قبل نسبتها للتنفيذ.
 
-- **DAX Measures:** اسم المقياس وصيغته وهدفه التجاري.
-- **Mathematical Explanation:** معنى العمليات الحسابية مع أمثلة رقمية.
-- **Practice & Validation:** تمارين وطرق لمطابقة النتائج داخل Power BI.
-- **Data Dictionary & Model:** الجداول والمفاتيح والعلاقات وحدود البيانات.
+## طريقة قراءة المعادلات
 
-> تُضاف روابط هذه الملفات بعد رفعها إلى المستودع ومراجعة تطابقها مع النسخة النهائية من التقرير.
+- `SUM` = مجموع قيم عمود. `DISTINCTCOUNT` = عدد القيم المختلفة. `COUNTROWS` = عدد الصفوف.
+- `DIVIDE(a,b,0)` = a ÷ b مع صفر عند انعدام المقام. `CALCULATE` = تعديل سياق الفلاتر.
+- `SUMX` = ضرب/حساب لكل صف ثم جمع النواتج. `MAXX` = أكبر قيمة محسوبة خلال جدول.
+- `VAR` يحفظ نتيجة مؤقتة داخل المقياس، و`RETURN` يحدد ما يعاد.
+
+
+## Sales
+
+### Total Sales
+**المعنى:** إجمالي صافي مبيعات الفواتير المكتملة.
+**الطريقة الرياضية:** مجموع صافي قيمة الفواتير المكتملة قبل الضريبة.
+**حالة التوثيق:** مناقَش سابقًا بصيغة موثقة.
+
+**DAX**
+```dax
+Total Sales =
+CALCULATE(
+    SUM(FactSales[InvoiceNetExclVATSAR]),
+    FactSales[InvoiceStatus] = "Completed"
+)
+```
+
+**Practice — تمرين تطبيقي:** قارن مجموع 3 فواتير Completed مع بطاقة المبيعات، ولا تشمل الفواتير الملغاة.
+
+**اختبار صحة النتيجة:** ضعي المقياس مع البعد المناسب في Table visual، قارني الإجمالي بمثال يدوي، ثم اختبري اختيار فرع/فترة زمنية.
+
+### Invoice Count
+**المعنى:** عدد الفواتير المختلفة.
+**الطريقة الرياضية:** عدد أرقام InvoiceID الفريدة.
+**حالة التوثيق:** مناقَش سابقًا بصيغة موثقة.
+
+**DAX**
+```dax
+Invoice Count =
+DISTINCTCOUNT(FactSales[InvoiceID])
+```
+
+**Practice — تمرين تطبيقي:** تأكد أن الفاتورة المكررة بسبب سطور منتجات لا تُعد مرتين.
+
+**اختبار صحة النتيجة:** ضعي المقياس مع البعد المناسب في Table visual، قارني الإجمالي بمثال يدوي، ثم اختبري اختيار فرع/فترة زمنية.
+
+### Completed Invoice Count
+**المعنى:** عدد الفواتير المكتملة.
+**الطريقة الرياضية:** عدد الفواتير الفريدة حيث Status = Completed.
+**حالة التوثيق:** صيغة مرجعية مقترحة.
+
+**DAX**
+```dax
+Completed Invoice Count =
+CALCULATE(
+    DISTINCTCOUNT(FactSales[InvoiceID]),
+    FactSales[InvoiceStatus] = "Completed"
+)
+```
+
+**Practice — تمرين تطبيقي:** قارن Invoice Count مع Completed Invoice Count عند وجود حالات غير مكتملة.
+
+**اختبار صحة النتيجة:** ضعي المقياس مع البعد المناسب في Table visual، قارني الإجمالي بمثال يدوي، ثم اختبري اختيار فرع/فترة زمنية.
+
+### Average Order Value
+**المعنى:** متوسط قيمة الفاتورة.
+**الطريقة الرياضية:** صافي مبيعات مكتملة ÷ عدد الفواتير المكتملة.
+**حالة التوثيق:** صيغة منقّحة؛ في الدروس استخدمنا Invoice Count.
+
+**DAX**
+```dax
+Average Order Value =
+DIVIDE([Total Sales], [Completed Invoice Count], 0)
+```
+
+**Practice — تمرين تطبيقي:** إذا كانت المبيعات 500 وعدد الفواتير المكتملة 10 فالمتوسط 50.
+
+**اختبار صحة النتيجة:** ضعي المقياس مع البعد المناسب في Table visual، قارني الإجمالي بمثال يدوي، ثم اختبري اختيار فرع/فترة زمنية.
+
+### Units Sold
+**المعنى:** عدد الوحدات المباعة.
+**الطريقة الرياضية:** مجموع Quantity من سطور الفواتير؛ يحتاج سياسة للملغاة.
+**حالة التوثيق:** صيغة مرجعية مقترحة.
+
+**DAX**
+```dax
+Units Sold =
+SUM(FactSaleLines[Quantity])
+```
+
+**Practice — تمرين تطبيقي:** اختبر عدم احتساب الوحدات الملغاة إن وجدت.
+
+**اختبار صحة النتيجة:** ضعي المقياس مع البعد المناسب في Table visual، قارني الإجمالي بمثال يدوي، ثم اختبري اختيار فرع/فترة زمنية.
+
+## Profitability
+
+### Total COGS
+**المعنى:** تكلفة البضاعة المباعة.
+**الطريقة الرياضية:** مجموع CostOfGoodsSoldSAR.
+**حالة التوثيق:** صيغة مرجعية مقترحة.
+
+**DAX**
+```dax
+Total COGS =
+SUM(FactSaleLines[CostOfGoodsSoldSAR])
+```
+
+**Practice — تمرين تطبيقي:** إذا كانت 3 قطع بتكلفة 5 فالنتيجة 15.
+
+**اختبار صحة النتيجة:** ضعي المقياس مع البعد المناسب في Table visual، قارني الإجمالي بمثال يدوي، ثم اختبري اختيار فرع/فترة زمنية.
+
+### Gross Profit
+**المعنى:** الربح الإجمالي.
+**الطريقة الرياضية:** صافي المبيعات − تكلفة البضاعة.
+**حالة التوثيق:** صيغة مرجعية تحتاج التحقق من نطاق الفلاتر.
+
+**DAX**
+```dax
+Gross Profit =
+[Total Sales] - [Total COGS]
+```
+
+**Practice — تمرين تطبيقي:** مثال 1000 مبيعات و650 تكلفة = 350 ربح إجمالي.
+
+**اختبار صحة النتيجة:** ضعي المقياس مع البعد المناسب في Table visual، قارني الإجمالي بمثال يدوي، ثم اختبري اختيار فرع/فترة زمنية.
+
+### Gross Margin %
+**المعنى:** هامش الربح الإجمالي.
+**الطريقة الرياضية:** الربح الإجمالي ÷ صافي المبيعات × 100%.
+**حالة التوثيق:** صيغة مرجعية مقترحة.
+
+**DAX**
+```dax
+Gross Margin % =
+DIVIDE([Gross Profit], [Total Sales], 0)
+```
+
+**Practice — تمرين تطبيقي:** 350 ÷ 1000 = 35%؛ نسّقي Percentage.
+
+**اختبار صحة النتيجة:** ضعي المقياس مع البعد المناسب في Table visual، قارني الإجمالي بمثال يدوي، ثم اختبري اختيار فرع/فترة زمنية.
+
+## Customers
+
+### Top Customer Segment by Sales
+**المعنى:** الفئة الأعلى مبيعات.
+**الطريقة الرياضية:** أعلى قيمة Sales بين الشرائح المحددة.
+**حالة التوثيق:** مناقَش سابقًا بصيغة موثقة.
+
+**DAX**
+```dax
+Top Customer Segment by Sales =
+VAR T = ADDCOLUMNS(ALLSELECTED(DimCustomers[CustomerSegment]), "@Sales", [Total Sales])
+VAR M = MAXX(T, [@Sales])
+RETURN CONCATENATEX(FILTER(T, [@Sales] = M && NOT ISBLANK([@Sales])), DimCustomers[CustomerSegment], ", ")
+```
+
+**Practice — تمرين تطبيقي:** اختاري فئة واحدة في slicer وشوفي تغير البطاقة.
+
+**اختبار صحة النتيجة:** ضعي المقياس مع البعد المناسب في Table visual، قارني الإجمالي بمثال يدوي، ثم اختبري اختيار فرع/فترة زمنية.
+
+### Top Segment by Invoices
+**المعنى:** الفئة الأعلى عدد فواتير.
+**الطريقة الرياضية:** أعلى قيمة Invoice Count بين الشرائح.
+**حالة التوثيق:** مناقَش سابقًا بصيغة موثقة.
+
+**DAX**
+```dax
+Top Segment by Invoices =
+VAR T = ADDCOLUMNS(ALLSELECTED(DimCustomers[CustomerSegment]), "@Invoices", [Invoice Count])
+VAR M = MAXX(T, [@Invoices])
+RETURN CONCATENATEX(FILTER(T, [@Invoices] = M && NOT ISBLANK([@Invoices])), DimCustomers[CustomerSegment], ", ")
+```
+
+**Practice — تمرين تطبيقي:** راجعي الفئة الأعلى في جدول مقارنة Invoice Count.
+
+**اختبار صحة النتيجة:** ضعي المقياس مع البعد المناسب في Table visual، قارني الإجمالي بمثال يدوي، ثم اختبري اختيار فرع/فترة زمنية.
+
+### VIP Sales Share
+**المعنى:** حصة VIP من المبيعات.
+**الطريقة الرياضية:** مبيعات VIP ÷ مبيعات جميع الشرائح، وقد يشمل المقام GUEST.
+**حالة التوثيق:** مناقَش سابقًا؛ تحذير متعلق بالمقام.
+
+**DAX**
+```dax
+VIP Sales Share =
+VAR VIPSales = CALCULATE([Total Sales], REMOVEFILTERS(DimCustomers[CustomerSegment]), DimCustomers[CustomerSegment] = "VIP")
+VAR AllSales = CALCULATE([Total Sales], REMOVEFILTERS(DimCustomers[CustomerSegment]))
+RETURN DIVIDE(VIPSales, AllSales, 0)
+```
+
+**Practice — تمرين تطبيقي:** اختبري إذا يشمل المقام فواتير الضيوف وحددي التسمية وفق ذلك.
+
+**اختبار صحة النتيجة:** ضعي المقياس مع البعد المناسب في Table visual، قارني الإجمالي بمثال يدوي، ثم اختبري اختيار فرع/فترة زمنية.
+
+## Returns
+
+### Total Returns
+**المعنى:** عدد عمليات الإرجاع.
+**الطريقة الرياضية:** عدد ReturnID غير المكرر.
+**حالة التوثيق:** مناقَش سابقًا.
+
+**DAX**
+```dax
+Total Returns =
+DISTINCTCOUNT(FactReturns[ReturnID])
+```
+
+**Practice — تمرين تطبيقي:** قارني القيمة بعدد صفوف المرتجعات (قد تختلف لو تكررت IDs).
+
+**اختبار صحة النتيجة:** ضعي المقياس مع البعد المناسب في Table visual، قارني الإجمالي بمثال يدوي، ثم اختبري اختيار فرع/فترة زمنية.
+
+### Returned Units
+**المعنى:** عدد القطع المرتجعة.
+**الطريقة الرياضية:** مجموع ReturnQty.
+**حالة التوثيق:** مناقَش سابقًا.
+
+**DAX**
+```dax
+Returned Units =
+SUM(FactReturns[ReturnQty])
+```
+
+**Practice — تمرين تطبيقي:** مثال إرجاع 2+3=5 وحدات.
+
+**اختبار صحة النتيجة:** ضعي المقياس مع البعد المناسب في Table visual، قارني الإجمالي بمثال يدوي، ثم اختبري اختيار فرع/فترة زمنية.
+
+### Total Refunds
+**المعنى:** مبالغ الاسترداد شاملة الضريبة.
+**الطريقة الرياضية:** الاسترداد قبل الضريبة + VAT.
+**حالة التوثيق:** مناقَش سابقًا.
+
+**DAX**
+```dax
+Total Refunds =
+SUM(FactReturns[RefundExclVATSAR]) + SUM(FactReturns[RefundVATSAR])
+```
+
+**Practice — تمرين تطبيقي:** قارني مثالا 100+15=115.
+
+**اختبار صحة النتيجة:** ضعي المقياس مع البعد المناسب في Table visual، قارني الإجمالي بمثال يدوي، ثم اختبري اختيار فرع/فترة زمنية.
+
+### Returned Invoices
+**المعنى:** الفواتير التي بها مرتجع.
+**الطريقة الرياضية:** Distinct InvoiceID من FactReturns.
+**حالة التوثيق:** مناقَش سابقًا.
+
+**DAX**
+```dax
+Returned Invoices =
+DISTINCTCOUNT(FactReturns[InvoiceID])
+```
+
+**Practice — تمرين تطبيقي:** الفاتورة ذات مرتجعين تُعد مرة واحدة.
+
+**اختبار صحة النتيجة:** ضعي المقياس مع البعد المناسب في Table visual، قارني الإجمالي بمثال يدوي، ثم اختبري اختيار فرع/فترة زمنية.
+
+### Invoice Return Rate %
+**المعنى:** نسبة الفواتير ذات مرتجع.
+**الطريقة الرياضية:** فواتير ذات مرتجع ÷ جميع الفواتير المتوافقة زمنيًا.
+**حالة التوثيق:** صيغة استخدمناها كخطوة تعليمية؛ تحتاج توحيد الفترة.
+
+**DAX**
+```dax
+Invoice Return Rate % =
+DIVIDE([Returned Invoices], [Invoice Count], 0)
+```
+
+**Practice — تمرين تطبيقي:** احذري ReturnDate مقابل Sales Date عند فلاتر الشهور.
+
+**اختبار صحة النتيجة:** ضعي المقياس مع البعد المناسب في Table visual، قارني الإجمالي بمثال يدوي، ثم اختبري اختيار فرع/فترة زمنية.
+
+## Purchasing
+
+### Total Purchase Orders
+**المعنى:** عدد أوامر الشراء.
+**الطريقة الرياضية:** DISTINCTCOUNT PurchaseOrderID.
+**حالة التوثيق:** مناقَش سابقًا.
+
+**DAX**
+```dax
+Total Purchase Orders =
+DISTINCTCOUNT(FactPurchaseOrders[PurchaseOrderID])
+```
+
+**Practice — تمرين تطبيقي:** تأكدي أن تكرار الصفوف لا يضخم عدد الطلبات.
+
+**اختبار صحة النتيجة:** ضعي المقياس مع البعد المناسب في Table visual، قارني الإجمالي بمثال يدوي، ثم اختبري اختيار فرع/فترة زمنية.
+
+### Purchased Units
+**المعنى:** الوحدات المطلوبة.
+**الطريقة الرياضية:** مجموع OrderedUnits.
+**حالة التوثيق:** مناقَش سابقًا؛ الاسم الفعلي للعمود OrderedUnits.
+
+**DAX**
+```dax
+Purchased Units =
+SUM(FactPurchaseOrders[OrderedUnits])
+```
+
+**Practice — تمرين تطبيقي:** مثال طلب 100 واستلام 80: المطلوبة 100.
+
+**اختبار صحة النتيجة:** ضعي المقياس مع البعد المناسب في Table visual، قارني الإجمالي بمثال يدوي، ثم اختبري اختيار فرع/فترة زمنية.
+
+### Received Units
+**المعنى:** الوحدات المستلمة.
+**الطريقة الرياضية:** مجموع ReceivedUnits.
+**حالة التوثيق:** صيغة مرجعية على أعمدة الملف.
+
+**DAX**
+```dax
+Received Units =
+SUM(FactPurchaseOrders[ReceivedUnits])
+```
+
+**Practice — تمرين تطبيقي:** مثال طلب 100 واستلام 80: المستلمة 80.
+
+**اختبار صحة النتيجة:** ضعي المقياس مع البعد المناسب في Table visual، قارني الإجمالي بمثال يدوي، ثم اختبري اختيار فرع/فترة زمنية.
+
+### Unreceived Units
+**المعنى:** فرق الوحدات غير المستلمة.
+**الطريقة الرياضية:** الوحدات المطلوبة − المستلمة.
+**حالة التوثيق:** مناقَش سابقًا بمفهوم الطرح.
+
+**DAX**
+```dax
+Unreceived Units =
+[Purchased Units] - [Received Units]
+```
+
+**Practice — تمرين تطبيقي:** 100 − 80 = 20.
+
+**اختبار صحة النتيجة:** ضعي المقياس مع البعد المناسب في Table visual، قارني الإجمالي بمثال يدوي، ثم اختبري اختيار فرع/فترة زمنية.
+
+### Fulfillment Rate
+**المعنى:** نسبة تلبية الكمية المطلوبة.
+**الطريقة الرياضية:** الوحدات المستلمة ÷ المطلوبة.
+**حالة التوثيق:** صيغة مرجعية على بيانات الملف.
+
+**DAX**
+```dax
+Fulfillment Rate =
+DIVIDE([Received Units], [Purchased Units], 0)
+```
+
+**Practice — تمرين تطبيقي:** 80 ÷ 100 = 80%.
+
+**اختبار صحة النتيجة:** ضعي المقياس مع البعد المناسب في Table visual، قارني الإجمالي بمثال يدوي، ثم اختبري اختيار فرع/فترة زمنية.
+
+### Purchase Order Value
+**المعنى:** قيمة أوامر الشراء.
+**الطريقة الرياضية:** مجموع (الكمية المطلوبة × تكلفة الوحدة).
+**حالة التوثيق:** صيغة مرجعية مقترحة.
+
+**DAX**
+```dax
+Purchase Order Value =
+SUMX(
+    FactPurchaseOrders,
+    FactPurchaseOrders[OrderedUnits] * FactPurchaseOrders[PurchaseUnitCostSAR]
+)
+```
+
+**Practice — تمرين تطبيقي:** 10 × 20 + 5 × 30 = 350.
+
+**اختبار صحة النتيجة:** ضعي المقياس مع البعد المناسب في Table visual، قارني الإجمالي بمثال يدوي، ثم اختبري اختيار فرع/فترة زمنية.
+
+### On-Time Delivery Rate
+**المعنى:** نسبة التسليم في الوقت.
+**الطريقة الرياضية:** عدد أوامر الاستلام الفريدة بموعد فعلي <= المتوقع ÷ جميع الأوامر ذات تاريخي تسليم.
+**حالة التوثيق:** صيغة مرجعية مشروطة: عند تكرار PurchaseOrderID بتاريخين متعارضين تحتاج سياسة حسم على مستوى الأمر.
+
+**DAX**
+```dax
+On-Time Delivery Rate =
+VAR DeliveredOrders =
+    FILTER(
+        FactPurchaseOrders,
+        NOT ISBLANK(FactPurchaseOrders[ActualDeliveryDate]) &&
+        NOT ISBLANK(FactPurchaseOrders[ExpectedDeliveryDate])
+    )
+VAR OnTimeOrders =
+    FILTER(
+        DeliveredOrders,
+        FactPurchaseOrders[ActualDeliveryDate] <= FactPurchaseOrders[ExpectedDeliveryDate]
+    )
+RETURN
+    DIVIDE(
+        COUNTROWS(SUMMARIZE(OnTimeOrders, FactPurchaseOrders[PurchaseOrderID])),
+        COUNTROWS(SUMMARIZE(DeliveredOrders, FactPurchaseOrders[PurchaseOrderID])),
+        0
+    )
+```
+
+**Practice — تمرين تطبيقي:** احسبي 8 طلبات في الموعد من 10 طلبات مستلمة = 80%.
+
+**اختبار صحة النتيجة:** ضعي المقياس مع البعد المناسب في Table visual، قارني الإجمالي بمثال يدوي، ثم اختبري اختيار فرع/فترة زمنية.
+
+## Operations
+
+### Total Store Visits
+**المعنى:** زيارات المتاجر.
+**الطريقة الرياضية:** مجموع FootfallVisitors.
+**حالة التوثيق:** مناقَش سابقًا.
+
+**DAX**
+```dax
+Total Store Visits =
+SUM(FactStoreOperationsDaily[FootfallVisitors])
+```
+
+**Practice — تمرين تطبيقي:** تحقق مرجعي 563441.
+
+**اختبار صحة النتيجة:** ضعي المقياس مع البعد المناسب في Table visual، قارني الإجمالي بمثال يدوي، ثم اختبري اختيار فرع/فترة زمنية.
+
+### Total Stores
+**المعنى:** عدد الفروع.
+**الطريقة الرياضية:** عدد StoreID الفريد.
+**حالة التوثيق:** مناقَش سابقًا.
+
+**DAX**
+```dax
+Total Stores =
+DISTINCTCOUNT(DimStores[StoreID])
+```
+
+**Practice — تمرين تطبيقي:** تحقق مرجعي 8.
+
+**اختبار صحة النتيجة:** ضعي المقياس مع البعد المناسب في Table visual، قارني الإجمالي بمثال يدوي، ثم اختبري اختيار فرع/فترة زمنية.
+
+### Staff Coverage Rate
+**المعنى:** نسبة تغطية الموظفين.
+**الطريقة الرياضية:** مجموع العاملين فعليًا ÷ المجدولين.
+**حالة التوثيق:** مناقَش سابقًا.
+
+**DAX**
+```dax
+Staff Coverage Rate =
+DIVIDE(SUM(FactStoreOperationsDaily[ActualStaff]), SUM(FactStoreOperationsDaily[ScheduledStaff]), 0)
+```
+
+**Practice — تمرين تطبيقي:** تحقق مرجعي ~99.56%.
+
+**اختبار صحة النتيجة:** ضعي المقياس مع البعد المناسب في Table visual، قارني الإجمالي بمثال يدوي، ثم اختبري اختيار فرع/فترة زمنية.
+
+### Total Service Incidents
+**المعنى:** عدد الحوادث التشغيلية.
+**الطريقة الرياضية:** عد الصفوف ذات حادثة غير None.
+**حالة التوثيق:** مناقَش سابقًا.
+
+**DAX**
+```dax
+Total Service Incidents =
+CALCULATE(
+    COUNTROWS(FactStoreOperationsDaily),
+    FactStoreOperationsDaily[ServiceIncident] <> "None",
+    NOT ISBLANK(FactStoreOperationsDaily[ServiceIncident])
+)
+```
+
+**Practice — تمرين تطبيقي:** تحقق مرجعي 54.
+
+**اختبار صحة النتيجة:** ضعي المقياس مع البعد المناسب في Table visual، قارني الإجمالي بمثال يدوي، ثم اختبري اختيار فرع/فترة زمنية.
+
+## Marketing
+
+### Marketing Spend
+**المعنى:** إنفاق التسويق.
+**الطريقة الرياضية:** مجموع الإنفاق.
+**حالة التوثيق:** صيغة مرجعية مقترحة.
+
+**DAX**
+```dax
+Marketing Spend =
+SUM(FactMarketingMonthly[CampaignSpendSAR])
+```
+
+**Practice — تمرين تطبيقي:** جمع نفقات الحملات لشهر واحد ثم قارني الإجمالي.
+
+**اختبار صحة النتيجة:** ضعي المقياس مع البعد المناسب في Table visual، قارني الإجمالي بمثال يدوي، ثم اختبري اختيار فرع/فترة زمنية.
+
+### CTR %
+**المعنى:** نسبة النقر إلى الظهور.
+**الطريقة الرياضية:** النقرات ÷ مرات الظهور.
+**حالة التوثيق:** صيغة مرجعية مقترحة.
+
+**DAX**
+```dax
+CTR % =
+DIVIDE(SUM(FactMarketingMonthly[Clicks]), SUM(FactMarketingMonthly[Impressions]), 0)
+```
+
+**Practice — تمرين تطبيقي:** 500 نقرة / 10000 ظهور = 5%.
+
+**اختبار صحة النتيجة:** ضعي المقياس مع البعد المناسب في Table visual، قارني الإجمالي بمثال يدوي، ثم اختبري اختيار فرع/فترة زمنية.
+
+### CPC
+**المعنى:** التكلفة لكل نقرة.
+**الطريقة الرياضية:** الإنفاق ÷ النقرات.
+**حالة التوثيق:** صيغة مرجعية مقترحة.
+
+**DAX**
+```dax
+CPC =
+DIVIDE(SUM(FactMarketingMonthly[CampaignSpendSAR]), SUM(FactMarketingMonthly[Clicks]), 0)
+```
+
+**Practice — تمرين تطبيقي:** 100 ريال / 20 نقرة = 5 ريال.
+
+**اختبار صحة النتيجة:** ضعي المقياس مع البعد المناسب في Table visual، قارني الإجمالي بمثال يدوي، ثم اختبري اختيار فرع/فترة زمنية.
+
+## Targets
+
+### Sales Target
+**المعنى:** هدف المبيعات.
+**الطريقة الرياضية:** مجموع الأهداف بعد مواءمة سياق الفترة والفئة.
+**حالة التوثيق:** صيغة مرجعية؛ راجعي العلاقات عند الفئات/الشهور.
+
+**DAX**
+```dax
+Sales Target =
+SUM(FactMonthlyTargets[NetSalesTargetSAR])
+```
+
+**Practice — تمرين تطبيقي:** إجمالي CSV السنوي = 3102720.
+
+**اختبار صحة النتيجة:** ضعي المقياس مع البعد المناسب في Table visual، قارني الإجمالي بمثال يدوي، ثم اختبري اختيار فرع/فترة زمنية.
+
+### Target Achievement %
+**المعنى:** تحقيق هدف المبيعات.
+**الطريقة الرياضية:** المبيعات الفعلية ÷ الهدف.
+**حالة التوثيق:** صيغة مرجعية؛ لا تقارني فترات مختلفة.
+
+**DAX**
+```dax
+Target Achievement % =
+DIVIDE([Total Sales], [Sales Target], 0)
+```
+
+**Practice — تمرين تطبيقي:** 500 / 400 = 125%.
+
+**اختبار صحة النتيجة:** ضعي المقياس مع البعد المناسب في Table visual، قارني الإجمالي بمثال يدوي، ثم اختبري اختيار فرع/فترة زمنية.
+
+### Sales Target Variance
+**المعنى:** فرق الهدف.
+**الطريقة الرياضية:** المبيعات الفعلية − الهدف.
+**حالة التوثيق:** صيغة مرجعية.
+
+**DAX**
+```dax
+Sales Target Variance =
+[Total Sales] - [Sales Target]
+```
+
+**Practice — تمرين تطبيقي:** 500 − 400 = +100.
+
+**اختبار صحة النتيجة:** ضعي المقياس مع البعد المناسب في Table visual، قارني الإجمالي بمثال يدوي، ثم اختبري اختيار فرع/فترة زمنية.
+
+## Complaints
+
+### Total Complaints
+**المعنى:** عدد الشكاوى.
+**الطريقة الرياضية:** عدد TicketID المختلفة.
+**حالة التوثيق:** صيغة مرجعية مقترحة.
+
+**DAX**
+```dax
+Total Complaints =
+DISTINCTCOUNT(FactCustomerComplaints[TicketID])
+```
+
+**Practice — تمرين تطبيقي:** تحقق مرجعي 1761.
+
+**اختبار صحة النتيجة:** ضعي المقياس مع البعد المناسب في Table visual، قارني الإجمالي بمثال يدوي، ثم اختبري اختيار فرع/فترة زمنية.
+
+### Average Resolution Days
+**المعنى:** متوسط أيام الحل.
+**الطريقة الرياضية:** متوسط ResolutionDays.
+**حالة التوثيق:** صيغة مرجعية مقترحة.
+
+**DAX**
+```dax
+Average Resolution Days =
+AVERAGE(FactCustomerComplaints[ResolutionDays])
+```
+
+**Practice — تمرين تطبيقي:** 2, 4, 6 أيام => متوسط 4.
+
+**اختبار صحة النتيجة:** ضعي المقياس مع البعد المناسب في Table visual، قارني الإجمالي بمثال يدوي، ثم اختبري اختيار فرع/فترة زمنية.
+
+### High Severity Complaints
+**المعنى:** عدد الشكاوى عالية الخطورة.
+**الطريقة الرياضية:** عدد التذاكر حيث Severity = High.
+**حالة التوثيق:** صيغة مرجعية مقترحة.
+
+**DAX**
+```dax
+High Severity Complaints =
+CALCULATE(DISTINCTCOUNT(FactCustomerComplaints[TicketID]), FactCustomerComplaints[Severity] = "High")
+```
+
+**Practice — تمرين تطبيقي:** تحقق مرجعي 563.
+
+**اختبار صحة النتيجة:** ضعي المقياس مع البعد المناسب في Table visual، قارني الإجمالي بمثال يدوي، ثم اختبري اختيار فرع/فترة زمنية.
+
+## أهم أخطاء DAX التي يجب تجنبها
+
+1. لا تقسمي مبيعات Completed على عدد فواتير تشمل حالات أخرى إلا إذا كان هذا تعريف المؤشر المقصود.
+2. لا تضربي إجمالي الكمية في إجمالي تكلفة الوحدة؛ `SUMX` يجري الضرب صفًا صفًا ثم يجمع.
+3. لا تجمعي أرصدة ClosingStockUnits لكل الأسابيع بوصفها مخزون اليوم.
+4. لا تنسبي نتائج GUEST لفئة Member أو VIP؛ GUEST بلا صف في DimCustomers.
+5. انتبهي إلى فرق Refund Date وInvoice Date عند مقارنة المرتجعات بالمبيعات.
+6. لا تستنتجي السببية من الرسوم الوصفية.
+7. عند استخدام `ALLSELECTED` أو `REMOVEFILTERS` اختبري هل مقام النسبة يشمل العملاء الضيوف.
 
 ## 👩‍💻 عن صاحبة المشروع | About Me
 
